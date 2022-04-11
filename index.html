@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img {
+            display: flex;
+            justify-content: space-evenly;
+            position: absolute;
+            bottom: 0;
+            margin-left: 400px;
+        }
+        
+        .index {
+            height: 20px;
+            width: 20px;
+            margin-left: 80px;
+            margin-top: 500px;
+        }
+        
+        .index:nth-child(1) {
+            animation-name: one;
+            animation-duration: 6.6s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+        }
+        
+        .index:nth-child(2) {
+            animation-name: two;
+            animation-duration: 6.9s;
+            animation-iteration-count: infinite;
+            animation-delay: 2.2s;
+        }
+        
+        .index:nth-child(3) {
+            animation-name: three;
+            animation-duration: 6.8s;
+            animation-iteration-count: infinite;
+            animation-delay: 1.6s;
+        }
+        
+        .index:nth-child(4) {
+            animation-name: four;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-delay: 2.5s;
+        }
+        
+        .index:nth-child(5) {
+            animation-name: five;
+            animation-duration: 7.4s;
+            animation-iteration-count: infinite;
+            animation-delay: 2.8s;
+        }
+        
+        @keyframes one {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes two {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes three {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes four {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+        
+        @keyframes five {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(26, 13, 51);">
+    <form action="https://antick011.github.io/antick121/">
+        <center>
+            <button class="btn" style="background-color: rgb(0, 209, 98); height: 50px; width: 50px; border-radius: 50%; font-size: 16px; margin-top: 30px;" onclick="display()">Click</button>
+        </center>
+    </form>
+    <div>
+        <center>
+            <img src="unnamed.gif" alt="gif" style="height: 60px; width: 40px; margin-top: 30px;">
+        </center>
+    </div>
+    <div>
+        <center>
+            <h1 style="color: cornsilk; width: 300px;">
+                Click Here To See What Is Waiting For You
+            </h1>
+        </center>
+    </div>
+
+    <div class="img" style="margin-left: -100px; width: 350px;">
+
+        <img src="pnk.png" alt="" class="index" style="height: 40px; width: 20px;">
+        <img src="pnk.png" alt="" class="index" style="height: 40px; width: 20px;">
+        <img src="pnk.png" alt="" class="index" style="height: 40px; width: 20px;">
+        <img src="pnk.png" alt="" class="index" style="height: 40px; width: 20px;">
+        <img src="pnk.png" alt="" class="index" style="height: 40px; width: 20px;">
+
+    </div>
+
+</body>
+
+</html>
